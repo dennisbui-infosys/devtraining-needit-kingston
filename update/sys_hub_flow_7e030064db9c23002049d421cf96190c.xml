@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description>Scheduled flow to check for overdue NeedIt tasks, set State field to Closed Incomplete, update Work notes field to state the reason for closing, and log the automatic closure including NeedIt Task number</description>
+        <label_cache>[{"name":"ea83facf-3714-492e-be1b-0b996c458f46.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"},{"name":"ea83facf-3714-492e-be1b-0b996c458f46.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"29087448-775c-4e7c-ae96-316bdfbf6588.record","label":"4.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"ea83facf-3714-492e-be1b-0b996c458f46.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"62f57f41-3f27-4b2b-b35d-fbbb7ecd1aa8.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"86fd5638-772a-4901-9213-4225406f5bfc.calculate_date","label":"2➛calculate_date","type":"glide_date","base_type":"glide_date"},{"name":"5e3773a6-e216-4c80-9a96-e135ffb63ea1.property_value","label":"1➛property_value","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot/>
+        <name>Find and Close Long OverDue NeedIt Tasks</name>
+        <remote_trigger_id/>
+        <show_draft_actions>false</show_draft_actions>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>dennis.bui</sys_created_by>
+        <sys_created_on>2018-08-29 18:22:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7e030064db9c23002049d421cf96190c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Find and Close Long OverDue NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_7e030064db9c23002049d421cf96190c</sys_update_name>
+        <sys_updated_by>dennis.bui</sys_updated_by>
+        <sys_updated_on>2018-08-29 19:10:42</sys_updated_on>
+    </sys_hub_flow>
+</record_update>
