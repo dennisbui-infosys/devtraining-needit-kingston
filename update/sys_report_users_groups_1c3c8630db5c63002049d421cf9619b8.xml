@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="NeedIt Requests by Type">e65aa5f8dbd863002049d421cf96192e</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>dennis.bui</sys_created_by>
+        <sys_created_on>2018-08-30 22:59:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1c3c8630db5c63002049d421cf9619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e65aa5f8dbd863002049d421cf96192e</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_report_users_groups_1c3c8630db5c63002049d421cf9619b8</sys_update_name>
+        <sys_updated_by>dennis.bui</sys_updated_by>
+        <sys_updated_on>2018-08-30 22:59:47</sys_updated_on>
+        <user_id display_value="Joe Employee">681ccaf9c0a8016400b98a06818d57c7</user_id>
+    </sys_report_users_groups>
+</record_update>
